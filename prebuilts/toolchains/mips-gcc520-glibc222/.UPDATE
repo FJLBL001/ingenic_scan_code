@@ -1,0 +1,75 @@
+2017-03-20 Liu Qian <qian.liu@ingenic.com>
+
+	Debug sysroot on release_3.1.1-gcc520.
+	* gcc:  Set sysroot path as /mfp64 if set option -mmsa.
+
+2017-03-13 Liu Qian <qian.liu@ingenic.com>
+
+	release Ingenic linux toolchains linux_r3.1.1-gcc520
+
+2017-03-13 Liu Qian <qian.liu@ingenic.com>
+
+	Change mfp32 as default multilib.
+	* gcc: Add arch option -march=xburst and -march=xburst2.
+	* binutils: Likewise.
+
+	* gcc: mfp32-lib as default multilib. Add mfp64 multilib dir.
+	Support option "-mmxu" for Ingenic XBURST MXU Extension insn.
+
+
+2017-02-24 Liu Qian <qian.liu@ingenic.com>
+
+	* gcc: Support macro fusion for got(high/lo_sum).
+	Support macro fusion for itype-store pairs.
+
+2017-02-20 Liu Qian <qian.liu@ingenic.com>
+
+	* gcc: Support macro fusion for LOAD/ALU pairs.
+
+2017-02-13 Liu Qian <qian.liu@ingenic.com>
+
+	* MSA builtin: define macro __msa_* for MSA insn's bnz.v/bz.v
+	bnz.df/bz.df ctcmsa.
+	* MXA: update Ingenic MXA instruction reference
+	Ingenc_MXA_instruction_set_00.07.
+
+	Issue #100:
+	* Debug: disable split of V4F32/V2F64 variable setting to 0.
+
+	* Based on linux_r3.1.0-gcc520.
+
+2017-01-03 Liu Qian <qian.liu@ingenic.com>
+
+	release Ingenic linux toolchains linux_r3.1.0-gcc520
+
+2017-01-03 Liu Qian <qian.liu@ingenic.com>
+
+	* Support mips cross prelink.
+	* Add mips qemu and support Ingenic x2000 target.
+	* Add gnu xhash style support for glibc's.
+	* Disable instruction lsa generate by gcc when isa < 6.
+
+2016-12-15 Liu Qian <qian.liu@ingenic.com>
+
+	* Gcc's: for mfp64 option, default add -mabs=2008
+	-mno-fused-madd.
+	* Add uclibc wrappers.
+
+2016-11-12  Update info.
+
+	release Ingenic linux toolchains linux_r3.0.0-gcc520
+
+	* Release linux toolchains gcc5.2.0 + binutils2.25.1 + glibc2.22.
+	* Support mips MSA instructions.
+	* Support Ingenic extend MXA instructions.
+	* Default arch. option as "-mips32r2 -mabi=32 -mfp64 -mnan2008".
+	* Disable -mbranch-likely for -Os when targetting generic arch.
+	* Use -msynci for targets that do now support it.
+
+
+Local Variables:
+mode: change-log
+left-margin: 8
+fill-column: 76
+version-control: never
+End:

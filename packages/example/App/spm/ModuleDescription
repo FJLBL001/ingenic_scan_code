@@ -1,0 +1,18 @@
+/**
+ * @brief
+ *    This App allows the wakeup button to support short press sleep/wakeup,
+ * Long press shutdown/boot system .
+ *
+ * NOTE:
+ *   1. please use getevent command to confirm the BUTTON_EVENT of the gpio_key;
+ *   2. this gpio_key must be wakeup_key and defined as the corresponding value of the EVENT_CODE; this value can also be obtained using the getevent command.
+ *
+ * Add this module in the project:
+ *   device/\<board\>/\<board\>_base.mk:PRODUCT_MODULES += spm
+ *
+ * @author Ingenic
+ *
+ * @version 1.0.0
+ */
+spm Description;
+

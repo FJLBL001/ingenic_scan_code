@@ -1,0 +1,51 @@
+/**
+ * @file
+ * @brief Monitor
+ * 向外提供进程操作的所有接口。包括:设置进程状态 ，获取进程状态，获取进程名称，获取进程ID
+ * 使用时Build.mk中需要添加编译条件
+ * LOCAL_DEPANNER_MODULES += libmonitor
+ * LOCAL_SHARED_LIBRARIES += libmonitor.so
+ *
+ * @author Ingenic
+ *
+ * @version 1.0.0
+ */
+
+enum{
+    STATUS_INVALID = 0x0,  /**< 无效状态 */
+    STATUS_PAUSE = 0x01,   /**< 暂停  */
+    STATUS_INCALL = 0x02,  /**< 通话 */
+    STATUS_VIDEO_RECORDING = 0x03,           /**< 常规录像中 */
+    STATUS_TIMELAPSE_VIDEO_RECORDING = 0x04, /**< 延时录像中 */
+};
+
+/**
+ * @brief 设置当前进程状态
+ * @param status - 当前进行状态
+ * @return  设置成功返回1,否则返回0
+ */
+int16_t setProcessStatus(int16_t status);
+
+/**
+ * @brief 通过进程名获取进程状态s
+ * @param name - 
+ * @return STATUS_XX
+ */
+int16_t getProcessStatus(const char* name);
+
+/**
+ * @brief 通过进程名获取进程ID
+ * @param name -  进程名
+ * @return  成功返回进程ID,否则返回-1
+ */
+int16_t getProcessPID(const char* name);
+
+/**
+ * @brief 通过进程ID获取进程名
+ * @param pid -  进程ID
+ * @param procname - 进程名指针
+ * @return 成功返回true，否则返回false
+ * @note  如果返回成功，将进程名称写入procname
+ */
+bool getNameByPID(const int pid,char* const &procname);
+

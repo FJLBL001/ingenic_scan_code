@@ -1,0 +1,4 @@
+timer_symbols.lo: timer_symbols.c \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/stdc-predef.h
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/stdc-predef.h:

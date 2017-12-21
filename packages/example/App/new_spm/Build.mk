@@ -1,0 +1,11 @@
+LOCAL_PATH := $(my-dir)
+include $(CLEAR_VARS)
+
+
+LOCAL_MODULE = spm
+LOCAL_MODULE_TAGS := eng
+LOCAL_MODULE_PATH := $(TARGET_FS_BUILD)/sbin
+LOCAL_SRC_FILES := spm.c
+LOCAL_LDLIBS :=  -lc
+
+include $(BUILD_EXECUTABLE)

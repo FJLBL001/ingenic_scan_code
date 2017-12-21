@@ -1,0 +1,15 @@
+LOCAL_PATH := $(my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE=libsqlite3
+LOCAL_MODULE_TAGS:=optional
+
+LOCAL_MODULE_GEN_SHARED_FILES=.libs/libsqlite3.so.0.8.6 .libs/libsqlite3.so .libs/libsqlite3.so.0
+LOCAL_MODULE_GEN_STATIC_FILES=.libs/libsqlite3.a
+LOCAL_MODULE_GEN_BINRARY_FILES = sqlite3
+LOCAL_MODULE_CONFIG_FILES:=Makefile
+LOCAL_MODULE_CONFIG=./configure --host=$(DEVICE_COMPILER_PREFIX)
+LOCAL_MODULE_COMPILE=make -j$(MAKE_JLEVEL)
+LOCAL_MODULE_COMPILE_CLEAN=make distclean
+
+include $(BUILD_THIRDPART)

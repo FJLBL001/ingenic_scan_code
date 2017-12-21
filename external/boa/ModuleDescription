@@ -1,0 +1,25 @@
+/**
+ * @brief
+ * This is Boa, a high performance web server for Unix-alike computers,
+ * covered by the Gnu General Public License.  This is version 0.94,
+ * released January 2000.  It is well tested and appears to be of
+ * at least "gamma" quality.
+ *
+ * Add this module in the project:
+ *
+ * device/\<board\>/\<board\>_base.mk:PRODUCT_MODULES += boa
+ *
+ * How to use :
+ * 1. config IP addr for your deviceBoard ,eg :
+ *	 $ifconfig eth0 192.168.4.123
+ * 2. run boa:
+ *	 $boa
+ * 3. on your computers, open a Web page to visit boa web site. http://192.168.4.123
+ *  if sucess ,you will see HELLO WORLD !!
+ *
+ *
+ * @author Ingenic
+ *
+ * @version 1.0.0
+ */
+boa Description;

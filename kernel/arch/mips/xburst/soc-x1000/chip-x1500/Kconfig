@@ -1,0 +1,27 @@
+
+
+choice
+	prompt "Board type"
+	depends on CHIP_X1500
+	default PRODUCT_X1500_YAK
+
+config  PRODUCT_X1500_YAK
+    bool "product x1500 yak"
+
+    config  PRODUCT_X1500_SOCSI
+    bool "product x1500 socsi"
+endchoice
+
+if PRODUCT_X1500_YAK
+config PRODUCT_NAME
+string
+default "yak"
+source "arch/mips/xburst/soc-x1000/chip-x1500/yak/Kconfig"
+endif
+
+if PRODUCT_X1500_SOCSI
+config PRODUCT_NAME
+string
+default "socsi"
+source "arch/mips/xburst/soc-x1000/chip-x1500/socsi/Kconfig"
+endif

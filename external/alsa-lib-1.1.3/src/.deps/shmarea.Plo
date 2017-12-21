@@ -1,0 +1,118 @@
+shmarea.lo: shmarea.c \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/stdc-predef.h \
+ ../include/config.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/stdio.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/features.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sgidefs.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/lib/gcc/mips-linux-gnu/5.2.0/include/stddef.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/types.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/typesizes.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/libio.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/_G_config.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/wchar.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/lib/gcc/mips-linux-gnu/5.2.0/include/stdarg.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/stdio_lim.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/sys_errlist.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/malloc.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/string.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/xlocale.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/errno.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/errno.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/linux/errno.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/asm/errno.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/asm-generic/errno-base.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/poll.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/poll.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/sigset.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/time.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/mman.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/mman.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/mman-linux.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/shm.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/ipc.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/ipctypes.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/ipc.h \
+ /home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/shm.h \
+ ../include/list.h
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/stdc-predef.h:
+
+../include/config.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/stdio.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/features.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sgidefs.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/lib/gcc/mips-linux-gnu/5.2.0/include/stddef.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/types.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/typesizes.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/libio.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/_G_config.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/wchar.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/lib/gcc/mips-linux-gnu/5.2.0/include/stdarg.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/stdio_lim.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/sys_errlist.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/malloc.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/string.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/xlocale.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/errno.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/errno.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/linux/errno.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/asm/errno.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/asm-generic/errno-base.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/poll.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/poll.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/sigset.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/time.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/mman.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/mman.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/mman-linux.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/shm.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/sys/ipc.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/ipctypes.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/ipc.h:
+
+/home/zxc/v7.0/ingenic-linux-kernel3.10.14-x1000-v7.0-20170919/prebuilts/toolchains/mips-gcc520-glibc222/mips-linux-gnu/libc/usr/include/bits/shm.h:
+
+../include/list.h:

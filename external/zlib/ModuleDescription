@@ -1,0 +1,17 @@
+/**
+ * @brief
+ * zlib. More refers to zlib official description.
+ *
+ * Operation method:
+ * Refers to external/libpng/
+ *
+ * Add this module in the project:
+ *
+ * device/\<board\>/\<board\>_base.mk:PRODUCT_MODULES += zlib_target
+ *
+ * @author Ingenic
+ *
+ * @version 1.0.0
+ */
+zlib Description;
+

@@ -1,0 +1,19 @@
+/**
+ * @brief
+ * libsqlite3. More refers to libsqlite3 official description.
+ *
+ * the SQLite library amalgamation source code file: sqlite3.c
+ * the sqlite3.h and sqlite3ext.h header files that define the C-language
+   interface to the sqlite3.c library file
+ * the shell.c file used to build the sqlite3 command-line shell program
+ *
+ *
+ * Add this module in the project:
+ *
+ * device/\<board\>/\<board\>_base.mk:PRODUCT_MODULES += libsqlite3
+ *
+ * @author Ingenic
+ *
+ * @version 1.0.0
+ */
+libsqlite3 Description;

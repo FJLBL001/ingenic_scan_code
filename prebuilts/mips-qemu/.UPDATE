@@ -1,0 +1,27 @@
+2017-03-13 Liu Qian <qian.liu@ingenic.com>
+
+	release Ingenic linux qemu r3.1.1-qemu270.
+
+2017-03-13 Liu Qian <qian.liu@ingenic.com>
+        * Make X2000 QEMU compatible with x2000-fpga kernel
+        * Fix test failure found in Fortran and Memory optimizing test
+        * Fix bugs in MXA instruction emulation
+
+2017-01-03 Liu Qian <qian.liu@ingenic.com>
+
+	release Ingenic linux qemu r3.1.0-qemu270.
+
+2017-01-03 Liu Qian <qian.liu@ingenic.com>
+
+	* Add Ingenic cpu X2000 and X1000 support.
+	* Add Ingenic extended SIMD instruction MXA.
+	* Initial build qemu 2.7.0
+
+
+Local Variables:
+mode: change-log
+left-margin: 8
+fill-column: 76
+version-control: never
+End:
+

@@ -1,0 +1,16 @@
+/**
+ * @brief
+ * libpng. More refers to libpng official description.
+ *
+ * Operation method:
+ * Refers to external/minigui/minigui-gpl
+ *
+ * Add this module in the project:
+ *
+ * device/\<board\>/\<board\>_base.mk:PRODUCT_MODULES += libpng
+ *
+ * @author Ingenic
+ *
+ * @version 1.0.0
+ */
+libpng Description;

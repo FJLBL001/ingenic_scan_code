@@ -1,0 +1,18 @@
+/**
+ * @brief
+ * freetype. More refers to freetype official description.
+ *
+ * Operation method:
+ * Refers to external/minigui/minigui-gpl
+ * Refers to packages/example/Sample/minigui
+ *
+ * Add this module in the project:
+ *
+ * device/\<board\>/\<board\>_base.mk:PRODUCT_MODULES += freetype
+ *
+ * @author Ingenic
+ *
+ * @version 1.0.0
+ */
+freetype Description;
+
